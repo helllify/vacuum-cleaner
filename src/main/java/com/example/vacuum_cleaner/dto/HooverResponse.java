@@ -4,19 +4,19 @@ import java.util.List;
 
 public class HooverResponse {
     private List<Integer> coords;
-    private int patchesCleaned;
+    private int patches;
 
     // Constructor, Getters, and Setters
-    public HooverResponse(List<Integer> coords, int patchesCleaned) {
+    public HooverResponse(List<Integer> coords, int patches) {
         this.coords = coords;
-        this.patchesCleaned = patchesCleaned;
+        this.patches = patches;
     }
 
     public List<Integer> getCoords() {
         return coords;
     }
 
-    public int getPatchesCleaned() {
-        return patchesCleaned;
+    public int getPatches() {
+        return patches;
     }
 }
